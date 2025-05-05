@@ -44,8 +44,8 @@ let characters = [
   let heights1 = characters.filter((character)=>character[1]<200);
   console.log(heights1);
 
-  let male1 = characters.filter((character)=>character[2] === "male")
-  console.log(male1);
+  let male2 = characters.filter((character)=>character[2] === "male")
+  console.log(male2);
 
   let mass1 = characters.sort((a,b)=> a[3]-b[3]);
   console.log(mass1);
